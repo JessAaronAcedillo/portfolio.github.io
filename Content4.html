@@ -1,0 +1,201 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ddd;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #111;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+			position: fixed;
+        }
+
+        .navbar .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .navbar input {
+            width: 300px;
+            padding: 7px;
+            border-radius: 4px;
+            border: none;
+        }
+
+        .sidebar {
+            width: 250px;
+            background: #141414;
+            padding: 20px;
+            position: fixed;
+            top: 60px;
+            bottom: 0;
+            overflow-y: auto;
+        }
+
+        .sidebar h3 {
+            margin: 20px 0 10px;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 5px 0;
+            color: #bbb;
+            text-decoration: none;
+        }
+
+        .sidebar a:hover {
+            color: white;
+        }
+
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .game-grid {
+            display: flex;
+			justify-content: space-between;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+			flex-wrap: wrap;
+        }
+
+        .game-card {
+            background: #222;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: 0.2s;
+        }
+
+        .game-card:hover {
+            transform: scale(1.03);
+        }
+
+        .game-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .game-info {
+            padding: 10px;
+        }
+
+        .game-title {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        .game-price {
+            color: #66d16d;
+            font-weight: bold;
+        }
+		.in-progress{
+			color: #ffffff;
+			font-weight: bold;
+			font-size: 32px;
+			opacity: 0.5;
+			font-family: Times New Roman;
+		}
+		.where-it-starts{
+			object-fit: cover;
+			object-position: center;
+		}
+		
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo">HELLO!!!</div>
+        <input type="text" placeholder="Search topic...">
+    </div>
+
+    <div class="sidebar">
+        <h3>School Year</h3>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Website.html">First Year</a>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">Second Year</a>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">Third Year</a>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">Summer Class</a>
+
+        <h3>Events</h3>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">Games</a>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">Parties</a>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">Family</a>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">School</a>
+
+        <h3>Little Nothings</h3>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">Diary</a>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">Thoughts</a>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">...</a>
+    </div>
+
+    <div class="content">
+
+        <div class="section-title">Results</div>
+		<div class= "where-it-starts">
+			<img src = "C:\Users\jaqac\Videos\Coding\HTML\Website2\Pictures\Numbers.png" width = "1000" height="400" class = "where-it-starts" alt = "Computer">
+        </div>
+		<div>
+		<h2> Computer Hardware, Software, and Implementations</h2>
+			<br>
+			
+			<p> &nbsp In the world of technology, a computer is the most crucial part amongst any other things.
+			We came from dominating the world of nature to playing god and simulating the idea of creation. 
+			The closest we’ve ever been to being a god is the power of creating and disassembling - something
+			very evident in modern society where we can create anything we want and yet destroy something we 
+			don’t like. With that said, the power of creation humanity wields can be harnessed with just a 
+			simple device - the computer. Built to foster imagination and regulate creation. The computer is 
+			composed of two parts - all geared toward simplicity and efficiency. The first part is composed of 
+			hardwares. These are physical components that simulate the world of computers. It holds the power 
+			computers have and the ideas that are built within them. </p>
+			<li>The CPU is the physical brain of the computer. It processes ideas and automatically presents 
+			you the world of possibilities. It orders the other components to do what you want it to do and act
+			the way you want it to.</li>
+			<li>The RAM is the physical representation of what a memory is. However, contrary to what human memory
+			does, the RAM acts as a portal that pulls present ideas forward. Among the many computations that the 
+			computer does, the RAM prioritizes the idea that the user wants manifested first. It doesn’t hold the 
+			memory for a long time as its job is to only prioritize what the user wants to see done first.</li>
+			<li>Motherboard, Drive, and graphics card. These components holds the power to connect each component
+			with each other. They synchronize, harmonize, and execute orders that prioritizes running the computer
+			and allowing users to monopolize the entirety of the computer to their advantage.</li>
+			<p>However, the computer isn’t exactly the thing that makes ideas to fruition. It’s just the vessel. 
+			The entire “creation and application” idea and thing came from the softwares that manage the components
+			of the computer. If the hardware is the body, one can consider that the software is the consciousness of
+			the computer. The one that breathes life into the computer and says “yes” to the things the user wants to
+			be done. There are three types of software types:</p>
+			<li>System software. The consciousness that allows the computer to run and connect with the hardwares within.
+			It also regulates and manages the computer to do what must be done to keep itself alive, secured, and stable.
+			In human terms, it’s the veins within the body that keeps each of our organs connected.</li>
+			<li>Application software. Also known as “the app”, it holds access to the user’s ideas. It is also where 
+			other forms of “creation” can manifest. This is where most users bolster their own curiosities and fosters 
+			their own ideas through access of virtual tools.</li>
+			<li>Programming software. The consciousness that controls and manipulates the computer to think and act.
+			The one consciousness that weilds the power of dismembering and refiguring the concept of a computer however 
+			they wish.</li>
+				</div>
+
+			</div>
+
+		</body>
+		</html>

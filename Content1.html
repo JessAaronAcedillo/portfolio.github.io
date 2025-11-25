@@ -1,0 +1,156 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ddd;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #111;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+        }
+
+        .navbar .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .navbar input {
+            width: 300px;
+            padding: 7px;
+            border-radius: 4px;
+            border: none;
+        }
+
+        .sidebar {
+            width: 250px;
+            background: #141414;
+            padding: 20px;
+            position: fixed;
+            top: 60px;
+            bottom: 0;
+            overflow-y: auto;
+        }
+
+        .sidebar h3 {
+            margin: 20px 0 10px;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 5px 0;
+            color: #bbb;
+            text-decoration: none;
+        }
+
+        .sidebar a:hover {
+            color: white;
+        }
+
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .game-card {
+            background: #222;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: 0.2s;
+        }
+
+        .game-card:hover {
+            transform: scale(1.03);
+        }
+
+        .game-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .game-info {
+            padding: 10px;
+        }
+
+        .game-title {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        .game-price {
+            color: #66d16d;
+            font-weight: bold;
+        }
+		.in-progress{
+			color: #ffffff;
+			font-weight: bold;
+			font-size: 32px;
+			opacity: 0.5;
+			font-family: Times New Roman;
+		}
+		
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo">HELLO!!!</div>
+        <input type="text" placeholder="Search topic...">
+    </div>
+
+    <div class="sidebar">
+        <h3>School Year</h3>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Website.html">First Year</a>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">Second Year</a>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">Third Year</a>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">Summer Class</a>
+
+        <h3>Events</h3>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">Games</a>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">Parties</a>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">Family</a>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">School</a>
+
+        <h3>Little Nothings</h3>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">Diary</a>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">Thoughts</a>
+        <a href="C:\Users\jaqac\Videos\Coding\HTML\Website2\Content1.html">...</a>
+    </div>
+
+    <div class="content">
+
+        <div class="section-title">Results</div>
+		<div class= "in-progress">
+		<p align = "center" ><br><br><br><br> Still In Progress</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
